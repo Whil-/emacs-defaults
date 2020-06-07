@@ -17,7 +17,7 @@
 ;;
 ;;; Code:
 
-(defcustom default-pim-dir "~/pim"
+(defcustom defaults-pim-dir "~/pim"
   "Location for files and folders belonging to the personal information collection.
 Not considered safe since it is used for initializations of other
 variables that probably aren't safe."
@@ -25,7 +25,7 @@ variables that probably aren't safe."
   :type 'directory
   :safe nil) 
 
-(defcustom default-notes-dir "~/notes"
+(defcustom defaults-notes-dir "~/notes"
   "Location for files that are considered to be notes.
 Not considered safe since it is used for initializations of other
 variables that probably aren't safe."
@@ -33,7 +33,7 @@ variables that probably aren't safe."
   :type 'directory
   :safe nil)
 
-(defcustom default-tasks-dir "~/tasks"
+(defcustom defaults-tasks-dir "~/tasks"
   "Location for files that can contain tasks.
 Not considered safe since it is used for initializations of other
 variables that probably aren't safe."
@@ -41,7 +41,7 @@ variables that probably aren't safe."
   :type 'directory
   :safe nil)
 
-(defcustom default-library-dir "~/library"
+(defcustom defaults-library-dir "~/library"
   "Location for a collection of libraries.
 Not considered safe since it is used for initializations of other
 variables that probably aren't safe."
